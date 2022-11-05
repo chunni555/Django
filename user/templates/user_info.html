@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h5>User Info</h5>
+
+<Strong>Name     : </Strong>{{ name }}<br/>
+<Strong>Address : </Strong>{{ address }}<br/>
+<Strong>Phone No : </Strong>{{ phone_no }}<br/>
+
+<button onclick="location.href='{% url 'user:index' %}'" type="button">
+Back</button>
+</body>
+</html> 
